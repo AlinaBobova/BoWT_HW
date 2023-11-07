@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test1</title>
+</head>
+<body class="body_test">
+
+  <style type="text/css">
+   table.table {
+   background-color="#FFFFF"
+   }
+
+  </style>
+
+  <ul class="menu">
+  <li><a href="bio.main.html">Главная страница</a></li>
+  <li><a href="theory.html">Теория</a></li>
+  <li><a href="tablebio.html">Хронология</a></li>
+  <li><a href="test2.html">Тест</a></li>
+  <li><a href="test1.html"><b>Форма</b></a></li>
+  <li><a href="theory.html#cell3">Ярлык (вутренний фрагмент)</a></li>
+  <li><a href="https://mipt.ru/education/chair/sport/science/skiing/113" target="_blank">
+  <img src="colbe.jpeg" style="width:15px;height:15px;"></a></li>
+  </ul>
+
+  <br>
+
+<table   bgcolor="#F1EAFF" class="table" align="center" border=1 cellpadding="5" cellspacing="1" width="600px">
+
+
+    <tr>
+        <td>
+            <ul>
+                <form action="https://www.yandex.ru/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <p>Имя: <input name="name" size=20 type="Text" value="Петя"></p>
+                <p>Фамилия: <input name="last_name" size=20 type="Text" value="Петров"></p>
+                 <p>Дата рождения: <input name="birth_date" type="date" value='2000-01-01'></p>
+                 <p>Номер телефона: <input name="phone" type="Text" value='+7-925-000-11-22'></p>
+                 <p>Электронная почта: <input name="mail" type="Text" value='petya777@mail.ru'></p>
+                 <p>Пароль: <input name="password" type="password" value=''></p>
+
+            </ul>
+
+                <p align="center">
+                    <input name="Reset" type="Reset" value="Обновить">
+                    <input name="Submit" type="Submit" value="Отправить">
+                </p>
+        </td>
+    </tr>
+
+                </form>
+   <td>
+       <p>Проверьте свои личные данное по клику.</p>
+        <input type="button" name="check" value="Проверка" onclick="check()"> <br>
+       <p id="print_here"></p>
+       <p id="print_here1"></p>
+       <p id="print_here2"></p>
+       <p id="print_here3"></p>
+       <p id="print_here4"></p>
+       <p id="print_here5"></p>
+
+
+    <script>
+function check()
+    {
+var x, y, z, d, k, q;
+x = document.getElementById("UserEnter");
+y = x.elements["name"].value;
+z = x.elements["last_name"].value;
+d = x.elements["birth_date"].value;
+m = x.elements["phone"].value;
+k = x.elements["mail"].value;
+q = x.elements["password"].value;
+
+document.getElementById("print_here").innerHTML= "Имя:" + y;
+document.getElementById("print_here1").innerHTML= "Фамилия:" + z;
+document.getElementById("print_here2").innerHTML= "Дата рождения:" + d;
+document.getElementById("print_here3").innerHTML= "Номер телефона:" + m;
+document.getElementById("print_here4").innerHTML= "Электронная почта:" + k;
+document.getElementById("print_here5").innerHTML= "Пароль:" + q;
+
+    }
+    </script>
+    </td>
+</table>
+</body>
+
+<link rel="stylesheet" href="biotest.css">
+
+</html>

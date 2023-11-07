@@ -1,0 +1,35 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+.menu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #5757a0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lavender;
+  border-bottom: 5px solid #5757a0;
+}
+
+.menu li {
+  display: inline;
+}
+
+.text1
+{
+padding-left: 45px;
+padding-right: 45px;
+}
+
+.heading
+{
+text-align: center;
+}
+
+.body_test
+{
+    background-image: url(https://i.pinimg.com/originals/1c/6e/60/1c6e604b0a970bfa35524e14bbd39fb7.png);
+}
