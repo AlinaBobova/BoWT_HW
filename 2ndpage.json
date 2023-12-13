@@ -1,0 +1,85 @@
+[
+  {
+    "id": "1",
+    "title": "Предметные стекла",
+    "vendor_code": "111",
+    "description": "72 шт",
+    "price": 290,
+    "img": "https://labmoloko.ru/wp-content/uploads/2019/06/Steklo-2.png"
+  },
+  {
+    "id": "2",
+    "title": "Масло иммерсионное",
+    "vendor_code": "222",
+    "description": "100 мл",
+    "price": 360,
+    "img": "https://mikroskopes.ru/wa-data/public/shop/products/67/97/9767/images/3416/3416.600.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Стекла покровные",
+    "vendor_code": "333",
+    "description": "100 шт. 24 мм х 24 мм",
+    "price": 320,
+    "img": "https://labmoloko.ru/wp-content/uploads/2019/06/Steklo-9.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Пробирка мерная с рантом",
+    "vendor_code": "444e",
+    "description": "15 мл",
+    "price": 1490,
+    "img": "https://pcgroup.ru/image/cache/catalog/products/photos1/product_431_0-800x800.jpg"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Колба круглодонная",
+    "vendor_code": "4445e",
+    "description": "250 мл",
+    "price": 690,
+    "img": "https://ntso.ru/uploadedFiles/eshopimages/big/kolby_kruglodonnye_s_3_gorlovinami_0888.jpg"
+  },
+  {
+    "id": "6",
+    "title": "о-Ксилол",
+    "vendor_code": "4446e",
+    "description": "100 мл",
+    "price": 170,
+    "img": "https://planetarium.ru/wa-data/public/shop/products/34/89/18934/images/10240/10240.650.JPG"
+  },
+  {
+    "id": "7",
+    "title": "Палочки для размешивания стеклянные",
+    "vendor_code": "4447e",
+    "description": "100 шт. 6 мм х 220 мм",
+    "price": 320,
+    "img": "https://www.deznet.ru/upload/iblock/68d/0ngeld5p0pbi6q875vnijp3z2k3etuh3.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Воронка лабораторная стеклянная",
+    "vendor_code": "4448e",
+    "description": "36 мм",
+    "price": 250,
+    "img": "https://kolba24.ru/wp-content/uploads/2023/09/v-36-50.png"
+  },
+  {
+    "id": "9",
+    "title": "Чашки петри",
+    "vendor_code": "444e",
+    "description": "5 шт. 90 мм",
+    "price": 320,
+    "img": "https://reaktiv-bel.ru/upload/iblock/c01/43pv26qouwqtg3ju3m1ga0u3oivoyecz/CHashki-Petri.jpg"
+  }
+  ,
+  {
+    "id": "10",
+    "title": "Колба коническая",
+    "vendor_code": "44410e",
+    "description": "1000 мл",
+    "price": 570,
+    "img": "https://www.ecoprolab.ru/upload/iblock/f72/049u1ewymm04yaszq0rzhk5ct6zl6v43/2-13230001.jpg"
+  }
+]
+

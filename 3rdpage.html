@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Bootstrap demo</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet">
+</head>
+
+<body class="body_test">
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="1stpage.html">Первая страница</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="2ndpage.html">Магазин</a>
+      </li>
+        <li class="nav-item">
+       <a class="nav-link active" aria-current="true" href="3rdpage.html">Форма</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="https://mipt.ru/education/chair/sport/science/skiing/113" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/5886/5886120.png" style="width:20px;height:20px;"></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" aria-current="true" href="4thpage.html">Карусель</a>
+        </li>
+    </ul>
+  </div>
+
+<!--
+<table   class="table" bgcolor="#F1EAFF" class="table" align="center" border=1 cellpadding="5" cellspacing="1">
+
+    <tr>
+        <td>
+            <ul>
+                <form action="https://www.yandex.ru/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <p class="text-center">Имя: <input name="name" size=20 type="Text" value="Петя"></p>
+                <p class="text-center">Фамилия: <input name="last_name" size=20 type="Text" value="Петров"></p>
+                 <p class="text-center">Дата рождения: <input name="birth_date" type="date" value='2000-01-01'></p>
+                 <p class="text-center">Номер телефона: <input name="phone" type="Text" value='+7-925-000-11-22'></p>
+                 <p class="text-center">Электронная почта: <input name="mail" type="Text" value='petya777@mail.ru'></p>
+                 <p class="text-center">Пароль: <input name="password" type="password" value=''></p>
+            </ul>
+        </td>
+    </tr>
+
+    </td>
+
+    <tr>
+        <td>
+
+            <h3 class="text-start">Тест по теме
+                Введение в общую биологию</h3>
+                <p class="text-start"><b>Задание 1.</b> Определите, какой метод молекулярной биологии описывается в приведённом фрагменте.</p>
+                 <p class="text-start"><i>Образец помещают в ротор, который приводится в движение. Для разделения смеси частиц необходимо выбрать набор условий, таких как скорость вращения и радиус ротора. Для сферических частиц скорость осаждения (седиментации) зависит не только от ускорения, но и от радиуса и плотности частиц, а так же от вязкости среды, в которой производится осаждение образца.</i></p>
+                <p class="text-start">Варианты ответов:</p>
+                <p class="text-start"><input name="place" type="Radio" value="Modeling">Моделирование</p>
+                <p class="text-start"><input checked name="place" type="Radio" value="Microscopyropia">Электронная микроскопия</p>
+                 <p class="text-start"><input name="place" type="Radio" value="Centrifugation">Центрифугирование</p>
+                 <p class="text-start"><input name="place" type="Radio" value="Chromatography">Хроматография</p>
+                <p class="text-start"><b>Задание 2.</b> Из перечисленных ниже видов микроскопии выберите только методы световой микроскопии.</p>
+                 <p class="text-start"><input checked name="experience" type="Checkbox" value="TEM">ТЭМ</p>
+                 <p class="text-start"><input checked name="experience" type="Checkbox" value="Fluorescence_microscopy">Флуоресцентная микроскопия</p>
+                 <p class="text-start"><input checked name="experience" type="Checkbox" value="Dark_field_microscopy">Темнопольная микроскопия</p>
+                 <p class="text-start"><input checked name="experience" type="Checkbox" value="SAM">СЭМ</p>
+                 <p class="text-start"><input checked name="experience" type="Checkbox" value="Phase_contrast_microscopy">Фазово-контрастная микроскопия</p>
+                <p class="text-start"><b>Задание 3.</b> Подставьте термины в описания.</p>
+                   <p class="text-start">1. <select name="term">
+                        <OPTION value="Систематика">Систематика</OPTION>
+                        <OPTION value="Классификация">Классификация</OPTION>
+                        <OPTION value="Физиология">Физиология</OPTION>
+                    </select> — наука о классификации живых организмов</p>
+                   <p class="text-start">2. <select name="term">
+                        <OPTION value="Физиология">Физиология</OPTION>
+                        <OPTION value="Морфология">Морфология</OPTION>
+                        <OPTION value="Анатомия">Анатомия</OPTION>
+                    </select> — наука (преимущественно) о внешнем строении (в зависимости от контекста — о строении в целом)</p>
+                   <p class="text-start">3. <select name="term">
+                        <OPTION value="Биотехнология">Биотехнология</OPTION>
+                        <OPTION value="Экология">Экология</OPTION>
+                        <OPTION value="Селекция">Селекция</OPTION>
+                    </select> — наука о создании и улучшении сортов растений, пород животных и штаммов микроорганизмов</p>
+                <p class="text-start"><b>Задание 4. </b> В чем различие между независимой и зависимой переменной в эксперименте? Как их определять? </p>
+                <p class="text-start">    <TEXTAREA cols=80 name="textarea" rows=4></TEXTAREA>
+                </p>
+                <p class="text-start"><b>Задание 5.</b> Впишите термин.</p>
+                <p class="text-start"><input name="термин" size='30' type="Техт" value=""> — наука о взаимодействии живых организмов между собой и с окружающей средой.
+                <p class="text-start"><input name="термин" size='30' type="Техт" value=""> — наука о наследственности и изменчивости.
+                <p class="text-start"><input name="термин" size='30' type="Техт" value=""> — наука об историческом развитии всего живого.
+
+                <p>
+                    <input name="Reset" type="Reset" value="Обновить">
+                    <input name="Submit" type="Submit" value="Отправить">
+                </p>
+            </form>
+        </td>
+
+</table>
+-->
+
+     <div class="flexbox-container">
+      <div class="flexbox-item flexbox-item-1">
+<table class="table">
+          <td>
+          <ul>
+                <form action="https://www.yandex.ru/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <p class="text-center">Имя: <input name="name" size=20 type="Text" value="Петя"></p>
+                <p class="text-center">Фамилия: <input name="last_name" size=20 type="Text" value="Петров"></p>
+                 <p class="text-center">Дата рождения: <input name="birth_date" type="date" value='2000-01-01'></p>
+                 <p class="text-center">Номер телефона: <input name="phone" type="Text" value='+7-925-000-11-22'></p>
+                 <p class="text-center">Электронная почта: <input name="mail" type="Text" value='petya777@mail.ru'></p>
+                 <p class="text-center">Пароль: <input name="password" type="password" value=''></p>
+            </ul>
+
+
+            <h3 class="text-start">Тест по теме
+                Введение в общую биологию</h3>
+                <p class="text-start"><b>Задание 1.</b> Определите, какой метод молекулярной биологии описывается в приведённом фрагменте.</p>
+                 <p class="text-start"><i>Образец помещают в ротор, который приводится в движение. Для разделения смеси частиц необходимо выбрать набор условий, таких как скорость вращения и радиус ротора. Для сферических частиц скорость осаждения (седиментации) зависит не только от ускорения, но и от радиуса и плотности частиц, а так же от вязкости среды, в которой производится осаждение образца.</i></p>
+                <p class="text-start">Варианты ответов:</p>
+                <p class="text-start"><input name="place" type="Radio" value="Modeling">Моделирование</p>
+                <p class="text-start"><input checked name="place" type="Radio" value="Microscopyropia">Электронная микроскопия</p>
+                 <p class="text-start"><input name="place" type="Radio" value="Centrifugation">Центрифугирование</p>
+                 <p class="text-start"><input name="place" type="Radio" value="Chromatography">Хроматография</p>
+                <p class="text-start"><b>Задание 2.</b> Из перечисленных ниже видов микроскопии выберите только методы световой микроскопии.</p>
+                 <p class="text-start"><input checked name="experience" type="Checkbox" value="TEM">ТЭМ</p>
+                 <p class="text-start"><input checked name="experience" type="Checkbox" value="Fluorescence_microscopy">Флуоресцентная микроскопия</p>
+                 <p class="text-start"><input checked name="experience" type="Checkbox" value="Dark_field_microscopy">Темнопольная микроскопия</p>
+                 <p class="text-start"><input checked name="experience" type="Checkbox" value="SAM">СЭМ</p>
+                 <p class="text-start"><input checked name="experience" type="Checkbox" value="Phase_contrast_microscopy">Фазово-контрастная микроскопия</p>
+                <p class="text-start"><b>Задание 3.</b> Подставьте термины в описания.</p>
+                   <p class="text-start">1. <select name="term">
+                        <OPTION value="Систематика">Систематика</OPTION>
+                        <OPTION value="Классификация">Классификация</OPTION>
+                        <OPTION value="Физиология">Физиология</OPTION>
+                    </select> — наука о классификации живых организмов</p>
+                   <p class="text-start">2. <select name="term">
+                        <OPTION value="Физиология">Физиология</OPTION>
+                        <OPTION value="Морфология">Морфология</OPTION>
+                        <OPTION value="Анатомия">Анатомия</OPTION>
+                    </select> — наука (преимущественно) о внешнем строении (в зависимости от контекста — о строении в целом)</p>
+                   <p class="text-start">3. <select name="term">
+                        <OPTION value="Биотехнология">Биотехнология</OPTION>
+                        <OPTION value="Экология">Экология</OPTION>
+                        <OPTION value="Селекция">Селекция</OPTION>
+                    </select> — наука о создании и улучшении сортов растений, пород животных и штаммов микроорганизмов</p>
+                </p>
+                <p class="text-start"><b>Задание 4.</b> Впишите термин.</p>
+                <p class="text-start"><input name="термин" size='30' type="Техт" value=""> — наука о взаимодействии живых организмов между собой и с окружающей средой.
+                <p class="text-start"><input name="термин" size='30' type="Техт" value=""> — наука о наследственности и изменчивости.
+                <p class="text-start"><input name="термин" size='30' type="Техт" value=""> — наука об историческом развитии всего живого.
+
+                <p>
+                    <input name="Reset" type="Reset" value="Обновить">
+                    <input name="Submit" type="Submit" value="Отправить">
+                </p>
+            </form>
+       </td>
+    </table>
+      </div>
+     </div>
+</body>
+
+
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Bootstrap demo</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet">
+</head>
+
+<body>
+
+<style>
+    .container{
+    text-align: center;
+    }
+</style>
+
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+       <a class="nav-link" href="1stpage.html">Первая страница</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link active" aria-current="true" href="2ndpage.html">Магазин</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="3rdpage.html">Форма</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="https://mipt.ru/education/chair/sport/science/skiing/113" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/5886/5886120.png" style="width:20px;height:20px;"></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" aria-current="true" href="4thpage.html">Карусель</a>
+        </li>    </ul>
+  </div>
+</div>
+
+   <div class="container">
+       <!--начало уникального содержания страницы-->
+        <div class="card-body">
+            <!--<h5 class='card-title text-center'>Каталог товаров</h5>-->
+            <input type="radio" id="price" name="sort" onchange="sort()"> price </input>
+            <input type="radio" id="title" name="sort" checked onchange="sort()"> title </input>
+            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <input name="q" type="hidden" value="search">
+                <ul class="d-flex flex-row justify-content-around flex-wrap bg-light" id="node_for_insert">
+                <!--начало генерируемого фрагмента кода -->
+                </ul>
+                <input class="btn btn-primary" type="Submit" value="В корзину">
+            </form>
+        </div>
+        <!--окончание уникального содержания страницы-->
+</div>
+
+</body>
+
+<script src="2ndpage.js"></script>
+
+</html>
