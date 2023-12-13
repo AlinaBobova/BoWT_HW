@@ -4,3 +4,5 @@
 Дз пасспорт: https://alinabobova.github.io/BoWT_HW/hw2.passport.html
 
 Дз алгоритмическая задача: https://alinabobova.github.io/BoWT_HW/az2.html
+
+https://alinabobova.github.io/BoWT_HW/1stpage.html
